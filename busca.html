@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesquisar Filmes - Meu Site de Filmes</title>
+    <style>
+        body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 2rem 0;
+  font-size: 2rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 0.5rem;
+  margin-right: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  padding: 0.5rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #000;
+}
+
+    </style>
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="categorias.html">Categorias</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Pesquisar Filmes</h1>
+
+    <form action="#" method="get">
+      <label for="search">Digite o título do filme:</label>
+      <input type="text" id="search" name="search" />
+      <button type="submit">Pesquisar</button>
+    </form>
+
+    <h2>Resultados da busca</h2>
+
+    <ul>
+      <li>
+        <h2>Filme de Ação 1</h2>
+        <p>Descrição do filme de Ação 1.</p>
+        <a href="#">Assistir</a>
+      </li>
+      <li>
+        <h2>Filme de Comédia 2</h2>
+        <p>Descrição do filme de Comédia 2.</p>
+        <a href="#">Assistir</a>
+      </li>
+      <li>
+        <h2>Filme de Drama 5</h2>
+        <p>Descrição do filme de Drama 5.</p>
+        <a href="#">Assistir</a>
+      </li>
+    </ul>
+  </body>
+</html>
