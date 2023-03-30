@@ -131,6 +131,7 @@ div.owl-nav {
     .afo-container .swiper-container .swiper-slide .swiper-slide-img {
         width: 165px;
         height: 245px;
+        margin-left: 1em; /* adicione esta linha */
     }
 
   
