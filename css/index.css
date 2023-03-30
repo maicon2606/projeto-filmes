@@ -220,6 +220,41 @@ footer {
     max-width: 150px;
   }
 }
+/* Estilizar a caixa de pesquisa */
+.search-box {
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.search-box input[type="text"] {
+  width: 150px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #f1f1f1;
+}
+
+.search-box button[type="submit"] {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Estilizar o ícone de lupa */
+.search-box button[type="submit"] i {
+  color: #666;
+  font-size: 18px;
+}
+
+
+
+
+
 
   
   
